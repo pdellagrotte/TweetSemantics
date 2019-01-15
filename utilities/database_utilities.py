@@ -11,7 +11,7 @@ def create_database(database_path=DEFAULT_PATH):
         cur = conn.cursor()
         cur.execute("drop table if exists tweets")
         ddl = """CREATE TABLE tweets (handle, 
-        tweet_text TEXT, created_at TEXT, polarity INT NOT NULL )"""
+        tweet_text TEXT, created_at TEXT, polarity REAL )"""
         cur.execute(ddl)
     conn.close()
 
