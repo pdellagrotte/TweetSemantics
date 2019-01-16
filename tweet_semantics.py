@@ -2,6 +2,7 @@
 from textblob import TextBlob
 from utilities import database_utilities
 from get_tweets import got_tweet_methods
+import ctypes
 
 # Loop through Twitter handles in text file, pass to Twitter API, and return values for storage in db
 def main():
@@ -20,8 +21,11 @@ def main():
             tweet_list = [handle, tweet.full_text, tweet.created_at, b.sentiment[0]]
             database_utilities.save_tweets_to_database(tweet_list)
         print(handle + " records saved to database")
-    print("End of program")
+
 
 if __name__ == "__main__":
     main()
+    print("End of program")
+    ctypes.windll.user32.MessageBoxW(0, "Tweets saved to database", "Tweet Semantics", 1)
+
 
