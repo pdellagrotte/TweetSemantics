@@ -1,0 +1,7 @@
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
+
+# Enter Twitter API keys in between quotes for each type
+# Application reads lines 1 - 4, do not add spaces or special characters
