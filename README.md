@@ -5,6 +5,8 @@ and determine text polarity (Text Analytics). The tweets are stored in a databas
 functions to 1.) Authenticate with the Twitter API 2.) Extract tweet data (JSON) 3.) Analyze tweet text and 4.) Create
 and save to a SQLite database
 
+<a href="https://pdellagrotte.github.io/>"<img src="https://github.com/pdellagrotte/TweetSemantics/blob/master/diagram.JPG" title="Diagram" alt="Author: Paul DellaGrotte"></a>
+
 ## Getting Started
 
 To get this project running, clone the repository and add the Twitter API keys to the api_keys.txt file. API keys need
