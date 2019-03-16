@@ -22,7 +22,7 @@ Twitter API Developer account
 
 ### Installing
 
-A few packages need to be installed
+A few packages need to be installed outside base Python
 
 ```
 pip3 install tweepy
@@ -32,7 +32,7 @@ pip3 install ctypes
 
 
 ## Running the tests
-TBD
+No tests currently
 
 ## Deployment
 
